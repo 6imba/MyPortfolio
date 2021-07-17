@@ -8,3 +8,7 @@ def education(request):
 def skill(request):
     status = {'skill':'active'}
     return render(request, 'edu/skill.html', status)
+
+def certificate(request):
+    status = {'certificate':'active'}
+    return render(request, 'edu/certificates.html', status)

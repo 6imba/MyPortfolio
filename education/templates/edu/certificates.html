@@ -1,0 +1,18 @@
+{% extends 'core/base.html' %}
+
+
+{% load static %}
+
+{% block content %}
+
+    <div class="container mt-5">
+
+        <h1 class="text-warning mb-5 border-bottom">Certificate</h1>
+            
+        <a href="{% static 'core/images/1.Coursera_Basic.pdf' %}" target="blank"/> Python Basic </a><br>
+        <a href="{% static 'core/images/2.Coursera_Files.pdf' %}" target="blank"/> Files Handling </a><br>
+        <a href="{% static 'core/images/3.Cousera_DataStruct.pdf' %}" target="blank"/> Python DataStructure </a><br>
+        <a href="{% static 'core/images/4. Coursera_Data_Collection_and_Processing.pdf' %}" target="blank"/> Python DataCollection and Processing </a><br>
+        <a href="{% static 'core/images/5.OOPs.pdf' %}" target="blank"/> Python OOPs </a><br>
+
+{% endblock content %}
