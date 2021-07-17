@@ -1,0 +1,71 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <h1 class="text-warning mb-5 border-bottom">Conctact Me</h1>
+    <p class="text-center  mb-5">Do you have any questions? Please do not hesitate to contact. I will respone to you within a matter of hours.</p>
+    <div class="div row">
+        <div class="col-sm-9">
+            <form action="" class="border-bottom">
+                <div class="div row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="fname">First Name:</label>
+                            <input type="text" class="form-control" id="fname">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="lname">Last Name:</label>
+                            <input type="text" class="form-control" id="lname">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Send</button>
+            </form>
+        </div>
+        <div class="col-sm-3">
+        <br><br>
+            <div class="div row text-white text-center">
+                <div class="div col">
+                    <i class="fas fa-phone fa-2x i-color"></i>
+                    <p>+977 9869666056</p>
+                </div>
+            </div>
+            <div class="div row text-center">
+                <div class="div col">
+                    <i class="fas fa-pencil-alt fa-2x i-color"></i>
+                    <p>simbaamir55@gmail.com</p>
+                </div>
+            </div>
+            <div class="div row text-center">
+                <div class="div col">
+                        <a href="http://www.linkedin.com/in/amir-shrestha-026878207" target="_blank"><i class="fas fa-headset fa-2x i-color"></i></a>
+                    <p>Linkedin</p>
+                </div>
+            </div>
+            <div class="div row text-center">
+                <div class="div col">
+                        <a href="https://github.com/6imba" target="_blank"><i class="fa fa-github fa-2x i-color"></i></a>
+                    <p>GitHub</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+
+
+{% endblock content %}

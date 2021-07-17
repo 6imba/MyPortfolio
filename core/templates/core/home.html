@@ -1,0 +1,67 @@
+{% extends 'core/base.html' %} {% load static %} {% block content %}
+
+<div class="text-center">
+  <img
+    src="{% static 'core/images/amira.jpg' %}"
+    alt="Profile_pic"
+    class="image-thumbnail mt-5"
+    height="200px"
+    width="200px"
+  />
+</div>
+<div class="mt-5 text-white mx-5 text-justify">
+  <h1 class="font-weight-bold st-font">Greeting Ma’am/ Sir,</h1>
+
+  <div class="px-4" style="line-height: 2rem">
+    {% comment %}
+    <p style="text-indent: 110px">
+      Write the perfect <b class="text-warning">resume with</b> help from our
+      resume examples for students and professionals. We have resume samples for
+      all job titles and formats.
+    </p>
+    {% endcomment %}
+    <p style="text-indent: 110px">
+      My name is Amir Shrestha, 21 years old energetic and passionate fellow.
+      Currently I am BIT final year student in Texas College of Management and
+      IT.
+    </p>
+    {% comment %} <p>
+      Write the perfect resume with help from our
+      <b class="text-warning">resume examples</b> for students and
+      professionals. We have resume samples for all job titles and formats.
+      Write the perfect resume with help from our resume examples for students
+      and professionals. We have resume samples for all job titles and formats.
+    </p> {% endcomment %}
+    <p>
+      It's been about 1 year I am learning python and a couple of months working
+      on Django. Till now all skill I have learned is through online source
+      (Geeky Shows). It's been while I have been doing Django E-commerce project
+      form YouTube (Code with Harry). I have also enrolled python course
+      provided by University of Michigan and achieved some handful of
+      certificates and do have attached them too. As Texas BIT is 3 years
+      degree, I am in my final year and we are recommended to look for
+      internship. Not only college but it's my self-will and passion regarding
+      internship. Respected sir though I am a student I can manage time and give
+      my best. Just I need is a chance. There saying that “Nothing is difficult,
+      it's just Unfamiliar!”. As I have not been practicing all of the skill
+      that I have learned on the regular basis beside Python and Django it may
+      take some time to revise for it but I can promise that my determination
+      regarding this internship will be 100%. And I won't let you to have any
+      complain on coming days. Therefore respected sir, with my above
+      information, I humbly request you to provide me internship opportunity for
+      my more enhancement in my coding/development skill. Hoping for positive
+      result sir.
+      <br>
+      <a href="http://www.linkedin.com/in/amir-shrestha-026878207" target="blank"><b class="text-warning"> LinkedIn: www.linkedin.com/in/amir-shrestha-026878207 </b></a>
+    </p>
+  </div>
+  <div class="text-center">
+    <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5"
+      >Hire me</a
+    >
+    <a href="{% url 'contact' %}" class="btn btn-outline-primary my-3"
+      >Contact</a
+    >
+  </div>
+</div>
+{% endblock content %}
